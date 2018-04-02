@@ -1,18 +1,19 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s): Matthew Shelby
+  	Date: 4/1/2018
 */
 
-/* 6. Your pseudocode algorithm here
-
-
+/* 5. Your pseudocode algorithm here
+Use for Loop to decrease squares of numbers from 10 to 1.
 */
 
 public class P5_DescendingSquares {
 
 	public static void main(String[] args) {
-		// 7. Your program code here
+		for (int i = 10; i >= 1; i--) {
+			System.out.print((i * i) + " ");
+		}
 	}
 
 }
